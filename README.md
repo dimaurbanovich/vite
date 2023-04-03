@@ -7,44 +7,43 @@
   - TypeScript
   - Redux
 - Build:
-  - [Vite]('https://vitejs.dev/')
+  - [Vite](https://vitejs.dev/)
 - Test:
-  - [Cypress]("https://www.cypress.io/")
+  - [Cypress](https://www.cypress.io/)
 - Style:
-  - [styled-components]("https://styled-components.com/")
+  - [styled-components](https://styled-components.com/)
 
-_As an alternative [Refine.dev]("https://refine.dev/") might be considered_
+_As an alternative [Refine.dev](https://refine.dev/) might be considered_
 
 ## Preliminary technical solutions for some components
 
-UI:
-_ [AntDesign]("https://ant.design/");
-_ [storybook]("https://storybook.js.org/")
-
-- [Material-UI (MUI)]("https://mui.com/")
+- UI
+  _ [AntDesign](https://ant.design/);
+  _ [storybook](https://storybook.js.org/)
+  - [Material-UI (MUI)](https://mui.com/)
 
 - Forms
-  - [React-Hook-Form]('https://react-hook-form.com/"),
-  - [Formik]("https://formik.org/"),
-  - [React-Final-Form]("https://final-form.org/react")
+  - [React-Hook-Form](https://react-hook-form.com/),
+  - [Formik](https://formik.org/),
+  - [React-Final-Form](https://final-form.org/react)
 
-[Artical]("https://javascript.plainenglish.io/3-best-react-form-libraries-every-react-developer-should-know-43888f8a969d") with short description of above libs.
+[Artical](https://javascript.plainenglish.io/3-best-react-form-libraries-every-react-developer-should-know-43888f8a969d) with short description of above libs.
 
 - Tables
-  - [Ag-grid]("https://www.ag-grid.com/")
-  - [TanStack]("https://tanstack.com/table/v8")
-  - [Tabulator]("https://tabulator.info/")
+  - [Ag-grid](https://www.ag-grid.com/)
+  - [TanStack](https://tanstack.com/table/v8)
+  - [Tabulator](https://tabulator.info/)
 
 Alternative:
-[1]("https://www.libhunt.com/l/typescript/topic/table")
-[2]("https://reactscript.com/best-data-table/")
+[1](https://www.libhunt.com/l/typescript/topic/table)
+[2](https://reactscript.com/best-data-table/)
 
 - Drag&Drop
-  - [React-dnd]("https://react-dnd.github.io/react-dnd/about")
-  - [dnd kit]("https://github.com/clauderic/dnd-kit")
-  - [react beautiful dnd]("https://github.com/atlassian/react-beautiful-dnd/")
-  - Table Drag & Drop [ag-grid]("https://www.ag-grid.com/javascript-data-grid/row-dragging/#dragging--row-grouping") solution
-  - Upload file [ant-design]("https://ant.design/components/upload#components-upload-demo-drag") solution
+  - [React-dnd](https://react-dnd.github.io/react-dnd/about)
+  - [dnd kit](https://github.com/clauderic/dnd-kit)
+  - [react beautiful dnd](https://github.com/atlassian/react-beautiful-dnd/)
+  - Table Drag & Drop [ag-grid](https://www.ag-grid.com/javascript-data-grid/row-dragging/#dragging--row-grouping) solution
+  - Upload file [ant-design](https://ant.design/components/upload#components-upload-demo-drag) solution
 
 
 ## Local development
