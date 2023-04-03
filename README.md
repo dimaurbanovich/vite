@@ -21,4 +21,4 @@ Builds the app for production.
 
 ### `yarn run cypress`
 
-Runs the Cypress app.# vite
+Runs the Cypress app.
