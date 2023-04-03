@@ -47,12 +47,12 @@ Alternative:
   - Upload file [ant-design]("https://ant.design/components/upload#components-upload-demo-drag") solution
 
 
-# Setup
+## Local development
 
 Clone the repository.\
 Run `yarn install` to install the dependencies.
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
