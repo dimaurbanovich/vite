@@ -20,6 +20,31 @@ You will also see any lint errors in the console.
 Runs Storybook.\
 Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
 
+**Storybook** comes setup with Storybook MDX.
+
+## MDX Template
+
+```mdx
+import { useState } from 'react';
+
+import { Canvas, Meta, Story } from '@storybook/addon-docs';
+
+import { Button } from './Button';
+
+<Meta title="Example/Button" component={Button} />
+
+# Button
+
+<Canvas>
+  <Story name="buttons">
+    <Button label="Button" primary={true}/>
+    <Button label="Button" />
+    <Button label="Button" size='large' />
+    <Button label="Button" size='small' />
+  </Story>
+</Canvas>
+```
+
 ### `yarn run build`
 
 Builds the app for production.
