@@ -1,0 +1,31 @@
+import { useState } from "react";
+
+import { Canvas, Meta, Story } from "@storybook/addon-docs";
+
+import { Button } from "../../components/Button/Button.tsx";
+
+<Meta title="Example/Button" component={Button} />
+
+<Canvas>
+  <Story name="Primary">
+    <Button label="Button" buttonType="primary" />
+  </Story>
+  <Story name="Secondary">
+    <Button label="Button" buttonType="secondary" />
+  </Story>
+  <Story name="Danger">
+    <Button label="Button" buttonType="danger" />
+  </Story>
+  <Story name="Large">
+    <Button label="Button" size="large" />
+  </Story>
+  <Story name="Small">
+    <Button label="Button" size="small" />
+  </Story>
+  <Story name="Medium">
+    <Button label="Button" size="medium" />
+  </Story>
+  <Story name="Disabled">
+    <Button label="Button" state="disabled" />
+  </Story>
+</Canvas>
